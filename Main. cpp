@@ -1,0 +1,19 @@
+// main.cpp
+#include <iostream>
+using namespace std;
+
+// Forward declaration of Parent
+class Parent {
+public:
+    void parentFunction();
+};
+
+// Include parent.cpp and child.cpp here manually
+#include "parent.cpp"
+#include "child.cpp"
+
+int main() {
+    Parent p;
+    p.parentFunction();
+    return 0;
+}
