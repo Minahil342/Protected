@@ -1,0 +1,13 @@
+// child.cpp
+#include <iostream>
+using namespace std;
+
+class Child {
+public:
+    void childFunction() {
+        cout << "This is the CHILD class function." << endl;
+    }
+};
+
+// Make class accessible to other files
+Child childObject;  // Global object (optional)
